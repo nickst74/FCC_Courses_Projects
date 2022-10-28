@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <main>
+            <h1 id="title" class="head-elem">Sweet Tooth Survey Form</h1>
+            <p id="description" class="head-elem">Please let us know about your favorite cake! :)</p>
+            <form id="survey-form">
+                <section>
+                    <label for="name" id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required></label>
+                </section>
+                <section>
+                    <label for="email" id="email-label">Email <input type="email" id="email" placeholder="Enter your Email" required></label>
+                </section>
+                <section>
+                    <label for="number" id="number-label">Age (optional) <input type="number" id="number" min="18" max="120" placeholder="Enter your age"></label>
+                </section>
+                <section>
+                    <p>How often do you eat cakes?</p>
+                    <select id="dropdown">
+                        <option value="opt1">Select one</option>
+                        <option value="opt2">Never... I have left my humanity behind.</option>
+                        <option value="opt3">Once per month</option>
+                        <option value="opt4">Once per week</option>
+                        <option value="opt5">Twice per week</option>
+                        <option value="opt6">Every other day</option>
+                        <option value="opt7">Everyday</option>
+                        <option value="opt8">HELP!!! I can't stop eating</option>
+                    </select>
+                </section>
+                <hr>
+                <section>
+                    <p style="margin-bottom: 6px;">What flavor do you prefer?</p>
+                    <label for="radio1" class="stacked"><input type="radio" id="radio1" name="radios" value="radio1" class="inline"> Chocolate Cake</label>
+                    <label for="radio2" class="stacked"><input type="radio" id="radio2" name="radios" value="radio2" class="inline"> Cheesecake</label>
+                    <label for="radio3" class="stacked"><input type="radio" id="radio3" name="radios" value="radio3" class="inline"> Red Velvet Cake</label>
+                    <label for="radio4" class="stacked"><input type="radio" id="radio4" name="radios" value="radio4" class="inline"> White Cake / Vanilla</label>
+                    <label for="radio5" class="stacked"><input type="radio" id="radio5" name="radios" value="radio5" class="inline"> Ice Cream Cake</label>
+                </section>
+                <section>
+                    <p style="margin-bottom: 6px;">What toppings do you like on your cake?</p>
+                    <label for="check1" class="stacked"><input type="checkbox" id="check1" value="check1" class="inline"> Fresh fruit</label>
+                    <label for="check2" class="stacked"><input type="checkbox" id="check2" value="check2" class="inline"> Shredded coconut </label>
+                    <label for="check3" class="stacked"><input type="checkbox" id="check3" value="check3" class="inline"> Small cookies</label>
+                    <label for="check4" class="stacked"><input type="checkbox" id="check4" value="check4" class="inline"> Chocolate curls</label>
+                    <label for="check5" class="stacked"><input type="checkbox" id="check5" value="check5" class="inline"> Spun-sugar flowers</label>
+                    <label for="check6" class="stacked"><input type="checkbox" id="check6" value="check6" class="inline"> Toasted nuts</label>
+                </section>
+                <hr>
+                <section>
+                    <p>Share what you enjoy the most about cakes (optional):</p>
+                    <textarea name="text-input" id="text-input" cols="30" rows="5" placeholder="Write your ideas here..."></textarea>
+                </section>
+                <input type="submit" id="submit" value="submit">
+            </form>
+        </main>
+    </body>
+</html>

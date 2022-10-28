@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: url("https://images.unsplash.com/photo-1535141192574-5d4897c12636?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&w=1000&q=80");
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    margin-top: 1em;
+    font-size: 18px;
+}
+
+.head-elem {
+    margin: 25px auto;
+    text-align: center;
+    -webkit-text-stroke: 2px rgb(85, 85, 85);
+    background: -webkit-linear-gradient(0deg, red, orange, yellow, green, cyan, rgb(88, 88, 255), red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p.head-elem {
+    -webkit-text-stroke: 1.5px rgb(85, 85, 85);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #2a2a3f;
+    opacity: 90%;
+    border-radius: 2em;
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+    margin: 1rem 0;
+    font-size: 18px;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    font-size: 16px;
+}
+
+select {
+    margin-top: -4px;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    color: #3d3d3d;
+}
+
+textarea {
+    margin-top: -4px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.stacked {
+    margin: 0;
+}
+
+input[type="submit"] {
+    margin: 20px 0 auto;
+    height: 40px;
+    background-image: linear-gradient(90deg, red, orange, yellow, green, cyan, rgb(88, 88, 255), red);
+    opacity: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+hr {
+    border-top: 2px solid rgb(192, 192, 192);
+}
